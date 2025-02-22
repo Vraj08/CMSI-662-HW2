@@ -1,3 +1,12 @@
+/*
+    2. Use Dynamic Cast for Type Safety
+    • CERT Number: OBJ52-CPP
+    • Description: Using dynamic_cast helps ensure safe type conversions between 
+      base and derived classes. Without it, invalid casts can lead to undefined behavior.
+*/
+
+
+
 #include <iostream>
 
 class Animal {
