@@ -1,3 +1,13 @@
+/*
+    1. Avoid Overflow When Adding Signed Integers
+    • CERT Number: INT32-C
+    • Description: Integer overflows can cause unintended behavior, leading to 
+      security vulnerabilities and crashes. To prevent this, we should always 
+      check if adding two numbers would exceed the maximum limit before 
+      performing the operation.
+*/
+
+
 #include <stdio.h>
 #include <limits.h>
 

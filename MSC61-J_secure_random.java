@@ -1,3 +1,11 @@
+/*
+    1. Use Secure Random Number Generation
+    • CERT Number: MSC61-J
+    • Description: Java’s Random class is not cryptographically secure. 
+      For security-sensitive applications, use SecureRandom.
+*/
+
+
 import java.security.SecureRandom;
 
 public class SecureRandomExample {

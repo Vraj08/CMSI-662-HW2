@@ -1,3 +1,11 @@
+/*
+    2. Always Free Allocated Memory
+    • CERT Number: MEM35-C
+    • Description: Dynamically allocated memory must always be freed when it is 
+      no longer needed. Failing to do so can lead to memory leaks, which over time 
+      can crash programs or make systems sluggish.
+*/
+
 #include <stdlib.h>
 #include <stdio.h>
 
